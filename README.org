@@ -3,7 +3,33 @@
 My old =.emacs.d= was imploding under its own weight. I'm starting
 over here.
 
+** Why Emacs? Why not Vim?
+
+I do use Vim, but I'd rather use Emacs. I do write JavaScript, Python,
+and other things; but I'd rather write Lisp (and Lisp-aligned
+languages such as Ruby and Elixir). Therefore I prefer Emacs Lisp to
+VimScript and Lua. Therefore I prefer Emacs to Vim.
+
+Also Emacs has far nicer and more ergonomic keybindings than
+Vim. :troll:
+
 ** Reference
+
+*** Emacs Proper
+
+- [[https://www.gnu.org/software/emacs/manual/index.html][Emacs Documentation]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html][Emacs Manual]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html][Emacs Lisp Intro]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][Emacs Lisp Manual]]
+  - [[https://www.gnu.org/software/emacs/manual/html_mono/eieio.html][Emacs Object System (EIEIO)]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/cl/index.html][Emacs Common Lisp Emulation]]
+
+*** Org Mode
+
+- [[https://orgmode.org/manual/][Org Manual]]
+- [[https://orgmode.org/worg/org-tutorials/index.html][Org Tutorial]]
+
+*** Emacs Configs
 
 - https://github.com/a-schaefers/dotfiles
   - https://github.com/a-schaefers/nix-config.old/tree/master/external/.emacs.d
