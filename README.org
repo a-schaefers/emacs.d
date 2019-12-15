@@ -38,5 +38,6 @@ Vim. :troll:
 - https://github.com/bbatsov/prelude
 - https://github.com/jwiegley/dot-emacs
 - https://github.com/technomancy/dotfiles/tree/master/.emacs.d
+- https://github.com/rexim/dotfiles
 - https://github.com/hlissner/doom-emacs
 - https://github.com/syl20bnr/spacemacs
