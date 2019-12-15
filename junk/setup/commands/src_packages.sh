@@ -1,0 +1,19 @@
+_src_packages() {
+  #src c99sh
+  #src emacs
+  #src golang
+  #src gopher
+  #src leiningen
+  #src libsixel
+  #src qodem
+  #src sdkman
+  #src wmutils
+  #src xterm
+  src plug_vim
+  src ctags
+  src gofonts
+  src nodenv
+  src pyenv
+  src rbenv
+  src suckless
+}
