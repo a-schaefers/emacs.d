@@ -35,6 +35,7 @@ Vim. :troll:
   - https://github.com/a-schaefers/nix-config.old/tree/master/external/.emacs.d
 - https://github.com/purcell/emacs.d
 - https://github.com/overtone/emacs-live
+- https://github.com/jimweirich/emacs-setup
 - https://github.com/bbatsov/prelude
 - https://github.com/jwiegley/dot-emacs
 - https://github.com/technomancy/dotfiles/tree/master/.emacs.d
