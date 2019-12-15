@@ -1,0 +1,16 @@
+* bayprogrammer's emacs.d
+
+My old =.emacs.d= was imploding under its own weight. I'm starting
+over here.
+
+** Reference
+
+- https://github.com/a-schaefers/dotfiles
+  - https://github.com/a-schaefers/nix-config.old/tree/master/external/.emacs.d
+- https://github.com/purcell/emacs.d
+- https://github.com/overtone/emacs-live
+- https://github.com/bbatsov/prelude
+- https://github.com/jwiegley/dot-emacs
+- https://github.com/technomancy/dotfiles/tree/master/.emacs.d
+- https://github.com/hlissner/doom-emacs
+- https://github.com/syl20bnr/spacemacs

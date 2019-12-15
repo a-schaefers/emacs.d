@@ -1,5 +1,5 @@
-:; exec $(/usr/bin/which emacs) -batch -load "$0" -f "main" -- "$@"
-;; -*- lexical-binding: t -*-
+: ; exec $(/usr/bin/which emacs) -batch -load "$0" -f "main" -- "$@"
+;;; -*- lexical-binding: t -*-
 
 (require 'cl-lib)
 
