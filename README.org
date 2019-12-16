@@ -42,3 +42,28 @@ Vim. :troll:
 - https://github.com/rexim/dotfiles
 - https://github.com/hlissner/doom-emacs
 - https://github.com/syl20bnr/spacemacs
+
+*** Emacs Scripts
+
+- https://www.emacswiki.org/emacs/EmacsScripts
+- https://swsnr.de/emacs/2014/08/12/emacs-script-pitfalls.html
+- http://kitchingroup.cheme.cmu.edu/blog/2014/08/06/Writing-scripts-in-Emacs-lisp/
+
+#+BEGIN_SRC
+#!/bin/sh
+":"; exec emacs --quick --script "$0" -f "main" -- "$@" # -*- mode: emacs-lisp; lexical-binding: t; -*-
+
+(require 'cl-lib)
+
+(defun greet ()
+  (princ "Hello, world.\n"))
+
+(defun main ()
+  (greet))
+#+END_SRC
+
+** Install
+
+#+BEGIN_SRC
+$ ln -s $(pwd) ${HOME}/.emacs.d
+#+END_SRC
