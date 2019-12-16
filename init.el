@@ -200,7 +200,7 @@
 
 (define-derived-mode zmd-generic-programming-mode fundamental-mode "BayProgrammer Generic Programming Mode"
   "Major mode for editing languages for which we have no better mode for."
-  (set (make-local-variable 'indent-line-function) 'indent-relative)
+  (set (make-local-variable 'indent-line-function) 'tab-to-tab-stop)
   (electric-indent-local-mode -1)
   (setq-local electric-indent-mode nil)
   (setq-local indent-tabs-mode nil)
